@@ -1,0 +1,57 @@
+/** WRAPPER */
+
+/** HEADER */
+
+#header {
+}
+
+/** LOGO */
+
+#logo {
+	position: relative;
+	float: left;
+	width: 350px;
+	height: 137px;
+}
+
+#logo h1, #logo p {
+	margin: 0px;
+	padding: 0px;
+	line-height: normal;
+	text-indent: -9999em;
+}
+
+#logo h1 a {
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 350px;
+	height: 137px;
+	background: url(images/homepage02.jpg) no-repeat left top; 
+}
+
+/** MENU */
+
+#menu {
+}
+
+/** PAGE */
+
+#page {
+}
+
+/** CONTENT */
+
+#content {
+}
+
+/** SIDEBAR */
+
+#sidebar {
+}
+
+/** FOOTER */
+
+#footer {
+}

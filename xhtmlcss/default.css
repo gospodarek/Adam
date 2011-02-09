@@ -1,0 +1,342 @@
+
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #F0F0F0 url(images/subpage2_06.jpg);
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 13px;
+	color: #5E5E5E;
+}
+
+h1, h2, h3 {
+	margin-top: 0px;
+}
+
+p, ol, ul {
+	margin-top: 0px;
+}
+
+p, ol {
+	line-height: 175%;
+}
+
+strong {
+	color: #5E5E5E;
+}
+
+a {
+	color: #4383BD;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a img {
+	border: none;
+}
+
+img.border {
+}
+
+img.alignleft {
+	float: left;
+	padding: 5px 20px 0px 0px;
+}
+
+img.alignright {
+	float: right;
+}
+
+img.aligncenter {
+	margin: 0px auto;
+}
+
+hr {
+	display: none;
+}
+
+#wrapper {
+	background: #f0f0f0 url(images/subpage2_01.jpg) repeat-x left top;
+}
+
+.homepage #wrapper {
+	background: #f0f0f0 url(images/homepage01.jpg) repeat-x left top;
+}
+
+.container {
+	width: 1000px;
+	margin: 0px auto;
+}
+
+.clearfix {
+	clear: both;
+}
+
+/** HEADER */
+
+#header {
+	overflow: hidden;
+	height: 137px;
+	background: url(images/subpage1_01.jpg) no-repeat right top;
+}
+
+/** MENU */
+
+#menu {
+	float: left;
+	width: 650px;
+	height: 137px;
+}
+
+#menu ul {
+	float: left;
+	margin: 0px;
+	padding: 68px 0px 0px 48px;
+	list-style: none;
+	text-align: center;
+}
+
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	display: inline-block;
+	margin-right: 15px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+
+#menu a:hover {
+}
+
+#menu li a span {
+	display: inline-block;
+	height: 23px;
+	padding: 5px 15px 0px 15px;
+	color: #FFFFFF;
+}
+
+#menu li.active a {
+	background: #4184C3 url(images/homepage03.jpg) no-repeat left top;
+}
+
+#menu li.active a span {
+	background: url(images/homepage04.jpg) no-repeat right top;
+	color: #FFFFFF;
+}
+
+/** SPLASH */
+
+#splash {
+	width: 920px;
+	height: 188px;
+	padding: 112px 0px 0px 80px;
+	background: url(images/homepage05.jpg) no-repeat left top;
+}
+
+.subpage #splash {
+	width: 1000px;
+	height: 150px;
+	padding: 0px;
+	background: url(images/subpage2_02.jpg) no-repeat left top;
+}
+
+.single #splash {
+	width: 1000px;
+	height: 150px;
+	padding: 0px;
+	background: url(images/subpage2_02.jpg) no-repeat left top;
+}
+
+#splash p {
+	margin: 0px;
+	padding: 0px;
+	text-shadow: 1px 1px 1px #39A0B4;
+	color: #FFFFFF;
+}
+
+#splash .text1 {
+	text-indent: -9999em;
+	font-size: 30px;
+}
+
+#splash .text2 {
+	text-indent: -9999em;
+	margin-top: -5px;
+	font-size: 42px;
+}
+
+/** PAGE */
+
+#page {
+	background: url(images/subpage2_04.jpg) repeat-y left top;
+}
+
+#page .bgtop {
+	overflow: hidden;
+	margin: 0px;
+	padding: 35px 0px;
+	background: url(images/subpage2_03.jpg) no-repeat left top;
+}
+
+.homepage #page .bgtop {
+	width: 940px;
+	padding: 0px 30px 35px 30px;
+}
+
+.subpage #page .bgtop {
+	width: 940px;
+	padding: 0px 30px 35px 30px;
+}
+
+/** CONTENT */
+
+#content {
+}
+
+.subpage #content {
+	float: left;
+	width: 565px;
+	padding: 30px 30px 0px 30px;
+	background: url(images/homepage06.jpg) no-repeat right top;
+}
+
+.single #content {
+	width: 890px;
+	padding: 0px 55px;
+}
+
+/** SIDEBAR */
+
+#sidebar {
+	float: right;
+}
+
+.subpage #sidebar {
+	width: 255px;
+	padding: 30px 30px 0px 30px;
+}
+
+/** FOOTER */
+
+#footer {
+	background: url(images/subpage2_05.jpg) repeat-x left top;
+	height: 105px;
+}
+
+#footer p {
+	margin: 0px;
+	padding: 25px 0px 0px 0px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#footer .legal {
+}
+
+#footer .links {
+}
+
+#footer a {
+	color: #FFFFFF;
+}
+
+.box-style {
+}
+
+.box-style .title {
+	margin: 0px;
+	padding: 0px;
+	letter-spacing: -1px;
+	font-size: 22px;
+	font-weight: normal;
+	color: #387BBA;
+}
+
+.box-style .byline {
+	margin: 0px;
+	padding: 0px 0px 15px 0px;
+	font-size: 12px;
+	color: #7D7D7D;
+}
+
+.box-style .content {
+}
+
+.box-style .link1 a {
+	float: right;
+	width: 83px;
+	height: 26px;
+	margin: 0px;
+	padding: 2px 0px 0px 0px;
+	background: url(images/homepage07.jpg) no-repeat left top;
+	text-decoration: none;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#three-columns {
+}
+
+#three-columns .column2, #three-columns .column3 {
+	width: 315px;
+}
+
+#three-columns .column1 {
+	float: left;
+	width: 250px;
+	padding: 30px 30px 0px 30px;
+	background: url(images/homepage06.jpg) no-repeat right top;
+}
+
+#three-columns .column2 {
+	float: left;
+	width: 255px;
+	padding: 30px 30px 0px 30px;
+	background: url(images/homepage06.jpg) no-repeat right top;
+}
+
+#three-columns .column3 {
+	float: right;
+	width: 255px;
+	padding: 30px 30px 0px 30px;
+}
+
+ul.style1 {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+ul.style1 li {
+	padding: 20px 0px 30px 0px;
+	background: url(images/homepage11.jpg) repeat-x left top;
+}
+
+ul.style1 h3 {
+	margin: 0px;
+	padding: 0px;
+	font-weight: normal;
+	font-style: italic;
+	color: #387BBA;
+}
+
+ul.style1 .byline {
+	margin: 0px;
+	padding: 0px 0px 10px 0px;
+	font-style: italic;
+}
+
+ul.style1 .first {
+	padding-top: 0px;
+	background: none;
+}
