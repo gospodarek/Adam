@@ -10,25 +10,29 @@
 #logo {
 	position: relative;
 	float: left;
-	width: 350px;
-	height: 137px;
+	/*width: 350px;*/
+	/*height: 137px;*/
 }
 
-#logo h1, #logo p {
-	margin: 0px;
-	padding: 0px;
+#logo h1 {
 	line-height: normal;
-	text-indent: -9999em;
+	margin-top: 50px;
+	margin-bottom: 16px;
+	width: 420px;/*if make this too big, menu will disappear*/
+	font-size: 20px;
+	z-index: 4;
+
+	/*text-indent: -9999em;*/
 }
 
-#logo h1 a {
+/*#logo h1 a {
 	display: block;
 	position: absolute;
-	top: 0px;
+	top: 30px;
 	left: 0px;
 	width: 350px;
 	height: 137px;
-	background: url(images/homepage02.jpg) no-repeat left top; 
+	/*background: url(images/homepage02.jpg) no-repeat left top; */
 }
 
 /** MENU */

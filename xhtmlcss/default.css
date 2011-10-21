@@ -84,12 +84,16 @@ hr {
 	height: 137px;
 	background: url(images/subpage1_01.jpg) no-repeat right top;
 }
+#logo h1{
+	font-size: 25px;
+	color: white;
+}
 
 /** MENU */
 
 #menu {
-	float: left;
-	width: 650px;
+	float: right;/*original left*/
+	width: 580px;/*original 650px;*/
 	height: 137px;
 }
 
@@ -165,12 +169,15 @@ hr {
 }
 
 #splash .text1 {
-	text-indent: -9999em;
-	font-size: 30px;
+	/*text-indent: -9999em;*/
+	font-style: italic;
+	                         
+	margin-top: -9px;
+	font-size: 40px;
 }
 
 #splash .text2 {
-	text-indent: -9999em;
+	/*text-indent: -9999em;*/
 	margin-top: -5px;
 	font-size: 42px;
 }
@@ -200,8 +207,9 @@ hr {
 
 /** CONTENT */
 
-#content {
-}
+/*#content img{
+	margin: 0px 12px 12px 0px;
+}*/
 
 .subpage #content {
 	float: left;
@@ -250,8 +258,6 @@ hr {
 	color: #FFFFFF;
 }
 
-.box-style {
-}
 
 .box-style .title {
 	margin: 0px;
@@ -318,13 +324,13 @@ ul.style1 {
 }
 
 ul.style1 li {
-	padding: 20px 0px 30px 0px;
+	padding: 20px 0px 0px 0px;
 	background: url(images/homepage11.jpg) repeat-x left top;
 }
 
 ul.style1 h3 {
 	margin: 0px;
-	padding: 0px;
+	padding-bottom: 4px;
 	font-weight: normal;
 	font-style: italic;
 	color: #387BBA;
@@ -339,4 +345,34 @@ ul.style1 .byline {
 ul.style1 .first {
 	padding-top: 0px;
 	background: none;
+}
+#about_title{
+	padding-bottom: 10px;
+}
+#services{/*adds margin below Services title*/
+	margin-top: 20px;
+}
+#services h3 {/*to style services/products titles*/
+	margin-top: 30px;
+	font-weight: normal;
+	font-style: italic;
+	color: #387BBA;
+}
+#services ul li{
+	line-height: 175%;
+}
+#readmore{
+	padding-top: 36px;
+}
+#special_color{
+	color: #387BBA;
+}
+#ventures{
+	letter-spacing: 4px;
+	left: 293px;
+	width: 160px;
+	top: -13px;
+	position: relative;
+	color: #387BBA;
+	font-family: Arial;
 }
